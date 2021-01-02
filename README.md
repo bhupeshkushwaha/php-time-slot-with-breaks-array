@@ -1,4 +1,4 @@
-# time-slot-with-braks-array
+# time-slot-with-breaks-array
 Get time slot between times and also check breaks time and remove from slot
 
 ```
@@ -65,4 +65,32 @@ $breakSlots = array(
 
 print_r(availableSlots($duration, $start, $end, $breakSlots));
 
+```
+###Output
+
+```
+Array
+(
+    [0] => 09:00:00
+    [1] => 09:30:00
+    [2] => 10:00:00
+    [3] => 10:30:00
+    [4] => 11:00:00
+    [5] => 11:30:00
+    [7] => 12:30:00
+    [8] => 13:00:00
+    [9] => 13:30:00
+    [10] => 14:00:00
+    [11] => 14:30:00
+    [13] => 15:30:00
+    [14] => 16:00:00
+    [15] => 16:30:00
+    [16] => 17:00:00
+    [17] => 17:30:00
+    [18] => 18:00:00
+    [19] => 18:30:00
+    [20] => 19:00:00
+    [21] => 19:30:00
+    [22] => 20:00:00
+)
 ```
